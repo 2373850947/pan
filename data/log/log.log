@@ -1,0 +1,1886 @@
+[33mWARN[0m[2023-07-17 02:51:08] not enable search                            
+[33mWARN[0m[2023-07-17 02:51:09] not enable search                            
+[GIN] 2023/07/17 - 02:51:34 | 200 |       206.5µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 02:51:35 | 200 |     3.44029ms |  15.235.130.219 | GET      "/assets/index.d81a3e4b.css"
+[GIN] 2023/07/17 - 02:51:35 | 200 |     4.73576ms |  15.235.130.219 | GET      "/assets/index.fe88f280.js"
+[GIN] 2023/07/17 - 02:51:36 | 200 |      215.87µs |  15.235.130.219 | GET      "/assets/entry.16f474aa.js"
+[GIN] 2023/07/17 - 02:51:36 | 200 |     1.25238ms |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 02:51:36 | 200 |     161.371µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 02:51:37 | 200 |      118.81µs |  15.235.130.219 | GET      "/assets/index.8e6aaf98.js"
+[GIN] 2023/07/17 - 02:51:37 | 200 |      171.91µs |  15.235.130.219 | GET      "/assets/index.47fcf4c1.js"
+[GIN] 2023/07/17 - 02:51:56 | 200 |     472.309µs |  15.235.130.219 | POST     "/api/auth/login"
+[GIN] 2023/07/17 - 02:51:56 | 200 |      176.13µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 02:51:57 | 200 |      274.61µs |  15.235.130.219 | GET      "/assets/Layout.3c6572ee.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |       28.33µs |  15.235.130.219 | GET      "/assets/api.4e1f3ee5.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |       44.63µs |  15.235.130.219 | GET      "/assets/useUtil.ccabd0b1.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |       24.49µs |  15.235.130.219 | GET      "/assets/index.b3f4846e.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |       26.07µs |  15.235.130.219 | GET      "/assets/FolderTree.2bf3aa28.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |      145.32µs |  15.235.130.219 | GET      "/assets/index.671eab34.js"
+[GIN] 2023/07/17 - 02:51:57 | 200 |     2.16106ms |  15.235.130.219 | GET      "/assets/Markdown.c1ac9bae.js"
+[31mERRO[0m[2023-07-17 02:51:57] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/home/runner/work/alist/alist/server/handles/fsread.go:304
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 02:51:57 | 200 |       726.6µs |  15.235.130.219 | POST     "/api/fs/get"
+[31mERRO[0m[2023-07-17 02:51:58] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 02:51:58 | 200 |      351.14µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:53:05 | 200 |      147.75µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 02:53:06 | 200 |      169.96µs |  15.235.130.219 | GET      "/assets/index.201397c7.js"
+[GIN] 2023/07/17 - 02:53:06 | 200 |        55.2µs |  15.235.130.219 | GET      "/assets/Profile.05a6d4e6.js"
+[GIN] 2023/07/17 - 02:53:12 | 200 |       38.71µs |  15.235.130.219 | GET      "/assets/Wether.fc207a4e.js"
+[GIN] 2023/07/17 - 02:53:12 | 200 |       44.89µs |  15.235.130.219 | GET      "/assets/DeletePopover.78350a3a.js"
+[GIN] 2023/07/17 - 02:53:12 | 200 |       34.25µs |  15.235.130.219 | GET      "/assets/Users.8be5365f.js"
+[GIN] 2023/07/17 - 02:53:12 | 200 |      350.28µs |  15.235.130.219 | GET      "/api/admin/user/list"
+[GIN] 2023/07/17 - 02:53:20 | 200 |       54.16µs |  15.235.130.219 | GET      "/assets/AddOrEdit.9e14a599.js"
+[31mERRO[0m[2023-07-17 02:53:46] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsDirs
+	/home/runner/work/alist/alist/server/handles/fsread.go:135
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 02:53:46 | 200 |      427.69µs |  15.235.130.219 | POST     "/api/fs/dirs"
+[GIN] 2023/07/17 - 02:53:57 | 200 |     561.909µs |  15.235.130.219 | POST     "/api/admin/user/create"
+[GIN] 2023/07/17 - 02:53:57 | 200 |      297.63µs |  15.235.130.219 | GET      "/api/admin/user/list"
+[GIN] 2023/07/17 - 02:54:07 | 200 |       56.27µs |  15.235.130.219 | GET      "/assets/Storages.9f193a6c.js"
+[GIN] 2023/07/17 - 02:54:08 | 200 |         133µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 02:54:08 | 200 |      554.06µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 02:54:19 | 200 |       45.39µs |  15.235.130.219 | GET      "/assets/item_type.be442da4.js"
+[GIN] 2023/07/17 - 02:54:19 | 200 |       23.09µs |  15.235.130.219 | GET      "/assets/ResponsiveGrid.82b0cf48.js"
+[GIN] 2023/07/17 - 02:54:19 | 200 |      169.65µs |  15.235.130.219 | GET      "/assets/AddOrEdit.fbfd50b8.js"
+[GIN] 2023/07/17 - 02:54:20 | 200 |     1.20133ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 02:54:23 | 200 |       83.61µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 02:54:23 | 200 |      345.96µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 02:54:24 | 200 |     1.15368ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 02:58:47] failed init storage but storage is already created: failed init storage: 请输入正确的手机号码 
+[GIN] 2023/07/17 - 02:58:47 | 200 |  1.074552192s |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 02:58:48 | 200 |      486.02µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 02:58:48 | 200 |      388.17µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 02:58:57 | 200 |  894.890437ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 02:58:58 | 200 |     1.53632ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 02:59:09 | 200 |      243.93µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 02:59:10 | 200 |      109.74µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 02:59:10 | 200 |      115.99µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 02:59:10 | 200 |      202.77µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 02:59:11 | 200 |     372.649µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:59:11 | 200 |      122.35µs |  15.235.130.219 | GET      "/assets/icon.1b6918d3.js"
+[GIN] 2023/07/17 - 02:59:11 | 200 |       43.27µs |  15.235.130.219 | GET      "/assets/Paginator.fe49eb1b.js"
+[GIN] 2023/07/17 - 02:59:11 | 200 |       377.4µs |  15.235.130.219 | GET      "/assets/Folder.b511ba9e.css"
+[GIN] 2023/07/17 - 02:59:11 | 200 |      671.75µs |  15.235.130.219 | GET      "/assets/Folder.9a523aee.js"
+[GIN] 2023/07/17 - 02:59:12 | 200 |      83.131µs |  15.235.130.219 | GET      "/assets/List.fd9f3d1e.js"
+[GIN] 2023/07/17 - 02:59:13 | 200 |  219.050034ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:59:18 | 200 |      197.19µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:59:19 | 200 |      347.85µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:59:37 | 200 |      181.48µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 02:59:39 | 200 |     146.869µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 02:59:44 | 200 |      100.79µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 02:59:44 | 200 |      418.88µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 02:59:47 | 200 |       375.1µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 02:59:47 | 200 |      118.41µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:00:04 | 200 |  856.576628ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:00:05 | 200 |      122.35µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:00:05 | 200 |       537.3µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:00:10 | 200 |      169.69µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:00:11 | 200 |       91.78µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:00:12 | 200 |      108.02µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:00:13 | 200 |      228.77µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:00:13 | 200 |     195.789µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:14 | 200 |      234.29µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:16 | 200 |  218.561904ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:17 | 200 |      231.55µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:18 | 200 |  217.050225ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:20 | 200 |      186.57µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:20 | 200 |     172.151µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:25 | 200 |      460.72µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:00:25 | 200 |      155.58µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:00:44 | 200 |      223.85µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:00:44 | 200 |       96.57µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:00:45 | 200 |     117.249µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:00:45 | 200 |     211.669µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:00:46 | 200 |      182.99µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:47 | 200 |      124.76µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:00:49 | 200 |      112.25µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:00:50 | 200 |      184.24µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:00:57 | 200 |      131.41µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:00:57 | 200 |      473.25µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:00:59 | 200 |      898.82µs |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:02:05 | 200 |      176.74µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:02:08 | 200 |      177.98µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:02:10 | 200 |       73.49µs |  15.235.130.219 | GET      "/assets/Grid.91095535.js"
+[GIN] 2023/07/17 - 03:02:10 | 200 |       32.51µs |  15.235.130.219 | GET      "/assets/ImageWithError.c2135d73.js"
+[GIN] 2023/07/17 - 03:02:18 | 200 |     213.611µs |  15.235.130.219 | GET      "/assets/Upload.c6144ab7.js"
+[31mERRO[0m[2023-07-17 03:02:32] failed put /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.putDirectly
+	/home/runner/work/alist/alist/internal/fs/put.go:47
+github.com/alist-org/alist/v3/internal/fs.PutDirectly
+	/home/runner/work/alist/alist/internal/fs/fs.go:97
+github.com/alist-org/alist/v3/server/handles.FsStream
+	/home/runner/work/alist/alist/server/handles/fsup.go:49
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.FsUp
+	/home/runner/work/alist/alist/server/middlewares/fsup.go:43
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:02:32 | 200 |      606.72µs |  15.235.130.219 | PUT      "/api/fs/put"
+[31mERRO[0m[2023-07-17 03:02:48] failed make dir /王的宝库: can't find storage with rawPath: /王的宝库
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.makeDir
+	/home/runner/work/alist/alist/internal/fs/other.go:13
+github.com/alist-org/alist/v3/internal/fs.MakeDir
+	/home/runner/work/alist/alist/internal/fs/fs.go:57
+github.com/alist-org/alist/v3/server/handles.FsMkdir
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:50
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:02:48 | 200 |      777.14µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[31mERRO[0m[2023-07-17 03:02:56] failed make dir /1: can't find storage with rawPath: /1
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.makeDir
+	/home/runner/work/alist/alist/internal/fs/other.go:13
+github.com/alist-org/alist/v3/internal/fs.MakeDir
+	/home/runner/work/alist/alist/internal/fs/fs.go:57
+github.com/alist-org/alist/v3/server/handles.FsMkdir
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:50
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:02:56 | 200 |      340.91µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[31mERRO[0m[2023-07-17 03:03:09] failed rename /2203155 to 前端: FileId格式异常
+github.com/alist-org/alist/v3/internal/op.Rename
+	/home/runner/work/alist/alist/internal/op/fs.go:412
+github.com/alist-org/alist/v3/internal/fs.rename
+	/home/runner/work/alist/alist/internal/fs/other.go:40
+github.com/alist-org/alist/v3/internal/fs.Rename
+	/home/runner/work/alist/alist/internal/fs/fs.go:81
+github.com/alist-org/alist/v3/server/handles.FsRename
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:162
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:03:09 | 200 |  839.755748ms |  15.235.130.219 | POST     "/api/fs/rename"
+[31mERRO[0m[2023-07-17 03:03:13] failed rename /2203155 to 166: FileId格式异常
+github.com/alist-org/alist/v3/internal/op.Rename
+	/home/runner/work/alist/alist/internal/op/fs.go:412
+github.com/alist-org/alist/v3/internal/fs.rename
+	/home/runner/work/alist/alist/internal/fs/other.go:40
+github.com/alist-org/alist/v3/internal/fs.Rename
+	/home/runner/work/alist/alist/internal/fs/fs.go:81
+github.com/alist-org/alist/v3/server/handles.FsRename
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:162
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:03:13 | 200 |  239.437964ms |  15.235.130.219 | POST     "/api/fs/rename"
+[31mERRO[0m[2023-07-17 03:03:19] failed rename /2203155 to Inteside: FileId格式异常
+github.com/alist-org/alist/v3/internal/op.Rename
+	/home/runner/work/alist/alist/internal/op/fs.go:412
+github.com/alist-org/alist/v3/internal/fs.rename
+	/home/runner/work/alist/alist/internal/fs/other.go:40
+github.com/alist-org/alist/v3/internal/fs.Rename
+	/home/runner/work/alist/alist/internal/fs/fs.go:81
+github.com/alist-org/alist/v3/server/handles.FsRename
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:162
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:03:19 | 200 |  240.488854ms |  15.235.130.219 | POST     "/api/fs/rename"
+[GIN] 2023/07/17 - 03:05:20 | 200 |      126.55µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:05:20 | 200 |      607.98µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:05:21 | 200 |     429.051µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:05:22 | 200 |      133.57µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:05:30 | 200 |  1.794461661s |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:05:31 | 200 |      117.75µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:05:31 | 200 |      509.99µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:05:33 | 200 |      138.72µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:05:34 | 200 |       96.71µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:05:34 | 200 |      110.46µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:05:34 | 200 |      212.63µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:05:35 | 200 |      238.77µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:35 | 200 |      203.82µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:05:40] failed rename /2203155/1982880 to 威威: FileId格式异常
+github.com/alist-org/alist/v3/internal/op.Rename
+	/home/runner/work/alist/alist/internal/op/fs.go:412
+github.com/alist-org/alist/v3/internal/fs.rename
+	/home/runner/work/alist/alist/internal/fs/other.go:40
+github.com/alist-org/alist/v3/internal/fs.Rename
+	/home/runner/work/alist/alist/internal/fs/fs.go:81
+github.com/alist-org/alist/v3/server/handles.FsRename
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:162
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:05:40 | 200 |    214.3091ms |  15.235.130.219 | POST     "/api/fs/rename"
+[31mERRO[0m[2023-07-17 03:05:42] fs/list: ParentFileId格式异常
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-07-17 03:05:42] failed list /2203155/1982880: ParentFileId格式异常
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/07/17 - 03:05:42 | 200 |  217.898541ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:44 | 200 |      200.92µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:45 | 200 |      239.78µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:46 | 200 |      166.92µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:47 | 200 |      235.07µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:05:47 | 200 |      200.82µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:05:48] fs/list: ParentFileId格式异常
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[31mERRO[0m[2023-07-17 03:05:48] failed list /2203155/1982880: ParentFileId格式异常
+failed to list objs
+github.com/alist-org/alist/v3/internal/op.List.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:120
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.List
+	/home/runner/work/alist/alist/internal/op/fs.go:117
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:25
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get objs 
+[GIN] 2023/07/17 - 03:05:48 | 200 |   217.44871ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:06:48 | 200 |     1.16044ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:06:53 | 200 |       114.7µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:06:53 | 200 |      410.36µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:06:55 | 200 |       321.3µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:06:55 | 200 |      122.82µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:07:00 | 200 |  871.683162ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:07:01 | 200 |      92.069µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:07:01 | 200 |     415.291µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:07:03 | 200 |      1.1378ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 03:07:22] failed init storage but storage is already created: failed init storage: 请输入正确的手机号码 
+[GIN] 2023/07/17 - 03:07:22 | 200 |  430.575391ms |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:07:22 | 200 |      296.88µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:07:23 | 200 |      101.01µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:07:33 | 200 |  871.465442ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:07:33 | 200 |      934.96µs |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:07:40 | 200 |      172.31µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:43 | 200 |      148.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:45 | 200 |      158.32µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:45 | 200 |      180.67µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:46 | 200 |   229.73351ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:47 | 200 |   219.94577ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:48 | 200 |      182.45µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:07:55 | 200 |      171.86µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:07:55 | 200 |      532.32µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[31mERRO[0m[2023-07-17 03:08:15] failed make dir /11: can't find storage with rawPath: /11
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.makeDir
+	/home/runner/work/alist/alist/internal/fs/other.go:13
+github.com/alist-org/alist/v3/internal/fs.MakeDir
+	/home/runner/work/alist/alist/internal/fs/fs.go:57
+github.com/alist-org/alist/v3/server/handles.FsMkdir
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:50
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:08:15 | 200 |      258.28µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[GIN] 2023/07/17 - 03:08:17 | 200 |       171.4µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:24 | 200 |   222.66443ms |  15.235.130.219 | POST     "/api/fs/mkdir"
+[GIN] 2023/07/17 - 03:08:25 | 200 |   229.67286ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:30 | 200 |  221.696481ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:32 | 200 |      152.96µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:36 | 200 |   219.72543ms |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:08:36 | 200 |      149.57µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:37 | 200 |      160.43µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:08:43 | 200 |      238.48µs |  15.235.130.219 | POST     "/api/fs/dirs"
+[31mERRO[0m[2023-07-17 03:08:48] failed move /2203155 to /2203155: ParentFileId格式异常
+github.com/alist-org/alist/v3/internal/op.Move
+	/home/runner/work/alist/alist/internal/op/fs.go:378
+github.com/alist-org/alist/v3/internal/fs.move
+	/home/runner/work/alist/alist/internal/fs/other.go:32
+github.com/alist-org/alist/v3/internal/fs.Move
+	/home/runner/work/alist/alist/internal/fs/fs.go:65
+github.com/alist-org/alist/v3/server/handles.FsMove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:08:48 | 200 |  214.477041ms |  15.235.130.219 | POST     "/api/fs/move"
+[31mERRO[0m[2023-07-17 03:08:50] failed move /2203155 to /2203157: can't move files between two storages, try to copy
+github.com/alist-org/alist/v3/internal/fs.move
+	/home/runner/work/alist/alist/internal/fs/other.go:30
+github.com/alist-org/alist/v3/internal/fs.Move
+	/home/runner/work/alist/alist/internal/fs/fs.go:65
+github.com/alist-org/alist/v3/server/handles.FsMove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:08:50 | 200 |      269.62µs |  15.235.130.219 | POST     "/api/fs/move"
+[GIN] 2023/07/17 - 03:11:56 | 200 |      118.95µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:11:59 | 200 |       104.2µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:11:59 | 200 |      182.31µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:12:03 | 200 |  1.007014897s |  15.235.130.219 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2023/07/17 - 03:12:03 | 200 |      599.93µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:12:04 | 200 |   216.33354ms |  15.235.130.219 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2023/07/17 - 03:12:04 | 200 |      359.67µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:12:05 | 200 |     1.18574ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:12:23 | 200 |  659.523491ms |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:12:23 | 200 |       76.72µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:12:23 | 200 |      453.66µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:12:25 | 200 |      142.97µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:12:25 | 200 |       81.19µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:12:26 | 200 |      100.75µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:12:26 | 200 |      163.32µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:12:26 | 200 |      169.28µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:12:27 | 200 |      146.44µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:12:30 | 200 |     1.03267ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 03:12:52] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/07/17 - 03:12:52 | 200 |      583.23µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2023-07-17 03:13:40] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/07/17 - 03:13:40 | 200 |      536.56µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2023-07-17 03:13:52] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/07/17 - 03:13:52 | 200 |      537.15µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2023-07-17 03:13:56] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/07/17 - 03:13:56 | 200 |      692.78µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[31mERRO[0m[2023-07-17 03:14:48] failed create storage in database: UNIQUE constraint failed: x_storages.mount_path 
+[GIN] 2023/07/17 - 03:14:48 | 200 |       542.2µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:15:05 | 200 |      735.16µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:15:06 | 200 |       86.87µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:15:06 | 200 |      435.77µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:15:11 | 200 |      145.34µs |  15.235.130.219 | GET      "/2203155"
+[GIN] 2023/07/17 - 03:15:11 | 200 |       73.07µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:15:11 | 200 |       94.91µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:15:12 | 200 |      155.31µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:15:12 | 200 |      142.26µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:12 | 200 |      217.12µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:15:13 | 200 |      157.54µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:14 | 200 |      340.46µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:17 | 200 |      188.01µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:18 | 200 |       161.8µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:18 | 200 |      409.66µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:20 | 200 |      164.68µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:21 | 200 |      161.59µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:21 | 200 |      169.59µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:22 | 200 |      171.39µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:22 | 200 |      190.03µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:24 | 200 |      160.45µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:26 | 200 |      359.14µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:28 | 200 |     167.409µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:28 | 200 |      171.32µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:29 | 200 |      176.54µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:30 | 200 |      188.61µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:32 | 200 |      167.92µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:32 | 200 |      188.67µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:15:47 | 200 |      537.99µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:15:47 | 200 |      140.41µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Alias"
+[GIN] 2023/07/17 - 03:16:00 | 200 |      645.51µs |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:16:01 | 200 |       98.34µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:16:01 | 200 |      399.56µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:16:05 | 200 |     111.991µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:16:05 | 200 |       80.02µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:16:05 | 200 |       93.27µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:16:06 | 200 |      254.65µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:16:06 | 200 |      199.58µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:16:07 | 200 |      341.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:16:15 | 200 |      155.23µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:16:25 | 200 |      344.41µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:16:25 | 200 |     129.611µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:16:31 | 200 |       87.58µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:16:31 | 200 |      515.35µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:16:32 | 200 |      301.46µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:16:32 | 200 |      114.47µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Alias"
+[GIN] 2023/07/17 - 03:17:00 | 200 |      797.47µs |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:17:00 | 200 |      140.77µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:17:00 | 200 |      456.06µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:17:09 | 200 |      165.58µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:17:09 | 200 |        93.6µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:17:09 | 200 |       94.14µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:17:10 | 200 |      205.76µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:17:10 | 200 |     187.729µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:11 | 200 |      162.46µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:13 | 200 |      163.28µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:17 | 200 |      262.39µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:17:18 | 200 |      115.79µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:17:33 | 200 |   1.57338047s |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:17:33 | 200 |      101.34µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:17:33 | 200 |      489.57µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:17:35 | 200 |      192.47µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:17:35 | 200 |      85.269µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:17:36 | 200 |      122.32µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:17:36 | 200 |      232.04µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:17:36 | 200 |      186.85µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:38 | 200 |      224.82µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:40 | 200 |      249.53µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:42 | 200 |      158.34µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:17:52 | 200 |      218.57µs |  15.235.130.219 | POST     "/api/fs/dirs"
+[31mERRO[0m[2023-07-17 03:17:54] failed move /2203157/Intesideの自用文件夹 to /Intesideの自用文件夹: can't move files between two storages, try to copy
+github.com/alist-org/alist/v3/internal/fs.move
+	/home/runner/work/alist/alist/internal/fs/other.go:30
+github.com/alist-org/alist/v3/internal/fs.Move
+	/home/runner/work/alist/alist/internal/fs/fs.go:65
+github.com/alist-org/alist/v3/server/handles.FsMove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:89
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:17:54 | 200 |       422.5µs |  15.235.130.219 | POST     "/api/fs/move"
+[GIN] 2023/07/17 - 03:17:57 | 200 |      190.39µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:04 | 200 |      418.96µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2023/07/17 - 03:18:04 | 200 |       426.9µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:18:17 | 200 |     1.18962ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:18:29 | 200 |  638.260162ms |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:18:30 | 200 |       94.24µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:18:30 | 200 |     447.651µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:18:33 | 200 |       100.1µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:18:34 | 200 |       81.98µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:18:34 | 200 |      122.79µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:18:34 | 200 |      184.74µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:18:35 | 200 |      241.19µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:36 | 200 |       181.9µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:37 | 200 |      205.42µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:37 | 200 |      158.55µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:39 | 200 |      180.45µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:40 | 200 |      185.66µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:18:41 | 200 |      305.09µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:04 | 200 |     178.371µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:08 | 200 |   217.12926ms |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:19:08 | 200 |      171.06µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:09 | 200 |      174.66µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:10 | 200 |       144.5µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:11 | 200 |       210.7µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:12 | 200 |      178.64µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:14 | 200 |   217.36803ms |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:19:15 | 200 |     149.191µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:16 | 200 |      152.57µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:17 | 200 |      173.07µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:18 | 200 |      158.09µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:20 | 200 |      170.14µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:21 | 200 |      185.86µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:19:22 | 200 |     1.36594ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:19:35 | 200 |      161.98µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:01 | 200 |     1.15271ms |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:20:01 | 200 |       98.94µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:20:01 | 200 |      564.27µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:20:04 | 200 |       102.1µs |  15.235.130.219 | GET      "/2203155"
+[GIN] 2023/07/17 - 03:20:04 | 200 |       94.06µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:20:04 | 200 |       92.62µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:20:05 | 200 |      176.18µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:20:05 | 200 |      168.68µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:06 | 200 |      255.93µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:20:06 | 200 |      158.12µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:08 | 200 |      184.82µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:09 | 200 |      190.46µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:12 | 200 |      173.15µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:12 | 200 |      203.48µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:14 | 200 |      145.12µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:16 | 200 |      219.79µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:20:18] failed remove /2203155: can't convert obj
+github.com/alist-org/alist/v3/internal/op.Remove
+	/home/runner/work/alist/alist/internal/op/fs.go:478
+github.com/alist-org/alist/v3/internal/fs.remove
+	/home/runner/work/alist/alist/internal/fs/other.go:48
+github.com/alist-org/alist/v3/internal/fs.Remove
+	/home/runner/work/alist/alist/internal/fs/fs.go:89
+github.com/alist-org/alist/v3/server/handles.FsRemove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:195
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:20:18 | 200 |      299.07µs |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:20:21 | 200 |      161.18µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:23 | 200 |      200.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:20:30] failed remove /2203155: can't convert obj
+github.com/alist-org/alist/v3/internal/op.Remove
+	/home/runner/work/alist/alist/internal/op/fs.go:478
+github.com/alist-org/alist/v3/internal/fs.remove
+	/home/runner/work/alist/alist/internal/fs/other.go:48
+github.com/alist-org/alist/v3/internal/fs.Remove
+	/home/runner/work/alist/alist/internal/fs/fs.go:89
+github.com/alist-org/alist/v3/server/handles.FsRemove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:195
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:20:30 | 200 |       299.5µs |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:20:46 | 200 |      162.41µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:47 | 200 |      220.81µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:49 | 200 |      201.16µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:49 | 200 |      162.08µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:50 | 200 |      198.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:51 | 200 |      189.24µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:54 | 200 |      174.04µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:20:58 | 200 |      295.02µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=3"
+[GIN] 2023/07/17 - 03:20:58 | 200 |      117.78µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Alias"
+[GIN] 2023/07/17 - 03:21:03 | 200 |      683.94µs |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:21:03 | 200 |       91.74µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:21:03 | 200 |     365.169µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:21:05 | 200 |       102.6µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:21:05 | 200 |      102.69µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:21:05 | 200 |       87.74µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:21:06 | 200 |      198.64µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:21:06 | 200 |     176.311µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:07 | 200 |     169.851µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:08 | 200 |      251.14µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:09 | 200 |      163.87µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:09 | 200 |     154.409µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:10 | 200 |     174.511µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:15 | 200 |       153.5µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:16 | 200 |      153.43µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:20 | 200 |      838.34µs |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:21:49 | 200 |      251.57µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:53 | 200 |      686.23µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:21:54 | 200 |      165.48µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:21:54 | 200 |      484.53µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:21:55 | 200 |      109.46µs |  15.235.130.219 | GET      "/2203157"
+[GIN] 2023/07/17 - 03:21:56 | 200 |     100.731µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:21:56 | 200 |       89.07µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:21:56 | 200 |      200.58µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:21:57 | 200 |     190.431µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:57 | 200 |      169.99µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:21:57 | 200 |      193.97µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:58 | 200 |      340.09µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:21:59 | 200 |         384µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:22:00 | 200 |      168.82µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:22:14] failed make dir /目录: can't find storage with rawPath: /目录
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.makeDir
+	/home/runner/work/alist/alist/internal/fs/other.go:13
+github.com/alist-org/alist/v3/internal/fs.MakeDir
+	/home/runner/work/alist/alist/internal/fs/fs.go:57
+github.com/alist-org/alist/v3/server/handles.FsMkdir
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:50
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:22:14 | 200 |      383.48µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[33mWARN[0m[2023-07-17 03:24:26] not enable search                            
+[33mWARN[0m[2023-07-17 03:24:26] not enable search                            
+[GIN] 2023/07/17 - 03:24:31 | 200 |      283.84µs |  15.235.130.219 | GET      "/@manage/storages/add"
+[GIN] 2023/07/17 - 03:24:31 | 200 |      585.07µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:24:32 | 200 |      445.84µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:24:32 | 200 |     1.44823ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:24:33 | 200 |      241.95µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:24:33 | 200 |      74.071µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:24:34 | 200 |      100.58µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:24:35 | 200 |      117.28µs |  15.235.130.219 | GET      "/@manage/storages/add"
+[GIN] 2023/07/17 - 03:24:36 | 200 |       77.18µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:24:36 | 200 |       97.41µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:24:36 | 200 |    1.221331ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:24:37 | 200 |      227.75µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:24:38 | 200 |       96.53µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:24:38 | 200 |      123.77µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:24:38 | 200 |       617.1µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:24:39 | 200 |      380.94µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:41 | 200 |  215.454556ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:43 | 200 |      223.46µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:43 | 200 |  214.316935ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:44 | 200 |      246.75µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:45 | 200 |  216.012765ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:45 | 200 |       181.5µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:24:50] failed remove /2203155: can't convert obj
+github.com/alist-org/alist/v3/internal/op.Remove
+	/home/runner/work/alist/alist/internal/op/fs.go:478
+github.com/alist-org/alist/v3/internal/fs.remove
+	/home/runner/work/alist/alist/internal/fs/other.go:48
+github.com/alist-org/alist/v3/internal/fs.Remove
+	/home/runner/work/alist/alist/internal/fs/fs.go:89
+github.com/alist-org/alist/v3/server/handles.FsRemove
+	/home/runner/work/alist/alist/server/handles/fsmanage.go:195
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598 
+[GIN] 2023/07/17 - 03:24:50 | 200 |      376.38µs |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:24:55 | 200 |  218.329434ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:56 | 200 |      225.68µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:57 | 200 |  219.444045ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:24:58 | 200 |      212.99µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:00 | 200 |  213.257775ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:01 | 200 |      221.89µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:02 | 200 |  214.540475ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:03 | 200 |      173.69µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:05 | 200 |      189.88µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:25:05 | 200 |      696.32µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:25:07 | 200 |      145.89µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:25:07 | 200 |       85.32µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:25:07 | 200 |        90.9µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:25:08 | 200 |      187.82µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:25:08 | 200 |       184.1µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:09 | 200 |  213.664615ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:10 | 200 |     171.869µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:25:12 | 200 |      425.53µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:25:12 | 200 |      259.22µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:27:17 | 200 |  821.218863ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:22 | 200 |  458.228458ms |  15.235.130.219 | PUT      "/api/fs/put"
+[GIN] 2023/07/17 - 03:27:23 | 200 |  224.172644ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:26 | 200 |  223.884235ms |  15.235.130.219 | POST     "/api/fs/remove"
+[GIN] 2023/07/17 - 03:27:26 | 200 |      147.03µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:33 | 200 |      274.63µs |  15.235.130.219 | POST     "/api/fs/dirs"
+[GIN] 2023/07/17 - 03:27:36 | 200 |      188.35µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:39 | 200 |      159.38µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:41 | 200 |     185.729µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:27:47 | 200 |       164.3µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:27:47 | 200 |      626.97µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:50 | 200 |  221.430165ms |  15.235.130.219 | POST     "/api/admin/storage/disable?id=1"
+[GIN] 2023/07/17 - 03:27:51 | 200 |      542.62µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:51 | 200 |  220.704504ms |  15.235.130.219 | POST     "/api/admin/storage/disable?id=2"
+[GIN] 2023/07/17 - 03:27:51 | 200 |      731.92µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:51 | 200 |    1.333919ms |  15.235.130.219 | POST     "/api/admin/storage/disable?id=3"
+[GIN] 2023/07/17 - 03:27:52 | 200 |      494.56µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:52 | 200 |      606.41µs |  15.235.130.219 | POST     "/api/admin/storage/disable?id=4"
+[GIN] 2023/07/17 - 03:27:52 | 200 |      680.64µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:54 | 200 |  664.166524ms |  15.235.130.219 | POST     "/api/admin/storage/enable?id=1"
+[GIN] 2023/07/17 - 03:27:55 | 200 |     718.449µs |  15.235.130.219 | POST     "/api/admin/storage/enable?id=3"
+[GIN] 2023/07/17 - 03:27:55 | 200 |      584.43µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:55 | 200 |  663.993064ms |  15.235.130.219 | POST     "/api/admin/storage/enable?id=2"
+[GIN] 2023/07/17 - 03:27:56 | 200 |       652.9µs |  15.235.130.219 | POST     "/api/admin/storage/enable?id=4"
+[GIN] 2023/07/17 - 03:27:56 | 200 |       575.4µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:56 | 200 |      564.38µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:56 | 200 |      512.67µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:27:58 | 200 |      243.57µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:27:58 | 200 |       78.21µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:27:58 | 200 |       96.58µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:27:59 | 200 |      185.86µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:27:59 | 200 |      180.03µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:28:00 | 200 |      161.64µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:28:01 | 200 |      188.77µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:28:02 | 200 |      303.87µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:28:03 | 200 |       126.6µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:28:08 | 200 |      147.94µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:28:08 | 200 |      621.52µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:28:10 | 200 |  217.729975ms |  15.235.130.219 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2023/07/17 - 03:28:11 | 200 |      633.27µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:28:13 | 200 |  217.356654ms |  15.235.130.219 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2023/07/17 - 03:28:13 | 200 |      545.03µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:28:15 | 200 |      113.33µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:28:16 | 200 |      103.92µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:28:16 | 200 |      107.22µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:28:16 | 200 |      171.64µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:28:17 | 200 |      212.81µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:28:17 | 200 |       204.1µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:28:22] failed make dir /Intesideの自用文件夹/1: not implement 
+[GIN] 2023/07/17 - 03:28:22 | 200 |      340.01µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[GIN] 2023/07/17 - 03:28:24 | 200 |      167.17µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:28:28 | 200 |     506.389µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=3"
+[GIN] 2023/07/17 - 03:28:29 | 200 |      431.46µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:28:30 | 200 |      452.95µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=4"
+[GIN] 2023/07/17 - 03:28:31 | 200 |      412.07µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:28:32 | 200 |    1.100269ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 03:28:54] failed list /Intesideの自用文件夹: can't find storage with rawPath: /Intesideの自用文件夹
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:28:54 | 200 |       395.2µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:28:54] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:28:54 | 200 |      380.24µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:06 | 200 |     1.30779ms |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:29:06 | 200 |       96.22µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:29:06 | 200 |     437.731µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:29:08 | 200 |      341.95µs |  15.235.130.219 | POST     "/api/admin/storage/load_all"
+[36mINFO[0m[2023-07-17 03:29:08] success load storage: [/Intesideの自用文件夹], driver: [Alias] 
+[GIN] 2023/07/17 - 03:29:10 | 200 |      121.19µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:29:10 | 200 |      75.379µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:29:11 | 200 |     106.189µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:29:11 | 200 |     174.689µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:29:11 | 200 |      199.59µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:12 | 200 |      189.25µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:29:20] failed make dir /Intesideの自用文件夹/我: not implement 
+[GIN] 2023/07/17 - 03:29:20 | 200 |      295.26µs |  15.235.130.219 | POST     "/api/fs/mkdir"
+[GIN] 2023/07/17 - 03:29:23 | 200 |      187.07µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:37 | 200 |     1.02236ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:29:51 | 200 |   1.57777383s |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:29:51 | 200 |     126.429µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:29:51 | 200 |     504.751µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:29:53 | 200 |       128.3µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:29:54 | 200 |       83.53µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:29:54 | 200 |       95.51µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:29:54 | 200 |      204.16µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:29:55 | 200 |       236.2µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:56 | 200 |      160.83µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:56 | 200 |      192.67µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:57 | 200 |      163.12µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:58 | 200 |      168.02µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:29:59 | 200 |       165.7µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:30:00 | 200 |      192.21µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:30:04 | 200 |      299.42µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:30:04 | 200 |      119.69µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Alias"
+[GIN] 2023/07/17 - 03:30:07 | 200 |      114.02µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:30:07 | 200 |      569.55µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:30:09 | 200 |      508.01µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2023/07/17 - 03:30:10 | 200 |      470.25µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:30:12 | 200 |  232.367594ms |  15.235.130.219 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2023/07/17 - 03:30:12 | 200 |       375.8µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:31:13 | 200 |       151.7µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:31:13 | 200 |       96.75µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:31:13 | 200 |       110.6µs |  15.235.130.219 | GET      "/api/me"
+[31mERRO[0m[2023-07-17 03:31:14] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/home/runner/work/alist/alist/server/handles/fsread.go:304
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:31:14 | 200 |      374.75µs |  15.235.130.219 | POST     "/api/fs/get"
+[31mERRO[0m[2023-07-17 03:31:14] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:31:14 | 200 |      436.49µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:31:19 | 200 |     1.07005ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 03:31:30] failed init storage but storage is already created: failed init storage: 账号或密码错误 
+[GIN] 2023/07/17 - 03:31:30 | 200 |  1.462999658s |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:31:31 | 200 |     382.889µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:31:31 | 200 |      130.38µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:31:37 | 200 |  924.932505ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:31:37 | 200 |      986.18µs |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:31:48 | 200 |      788.98µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:31:48 | 200 |      107.16µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:31:48 | 200 |       411.5µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:31:50 | 200 |      105.83µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:31:50 | 200 |       77.56µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:31:51 | 200 |      125.37µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:31:51 | 200 |         242µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:31:51 | 200 |      177.99µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:31:53 | 200 |     157.609µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:31:54 | 200 |      185.85µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:31:54 | 200 |      166.95µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:31:56 | 200 |      176.34µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:06 | 200 |      140.53µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:08 | 200 |      168.79µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:08 | 200 |       173.4µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:09 | 200 |      197.02µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:13 | 200 |      333.11µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:32:13 | 200 |      116.28µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=123Pan"
+[GIN] 2023/07/17 - 03:32:19 | 200 |      108.13µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:32:19 | 200 |      475.88µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:32:20 | 200 |      358.73µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:32:20 | 200 |      108.54µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Alias"
+[GIN] 2023/07/17 - 03:32:26 | 200 |      836.66µs |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:32:27 | 200 |       99.64µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:32:27 | 200 |      593.41µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:32:29 | 200 |      171.22µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:33 | 200 |      494.72µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=2"
+[GIN] 2023/07/17 - 03:32:33 | 200 |      507.94µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:32:35 | 200 |      139.64µs |  15.235.130.219 | GET      "/2203155"
+[GIN] 2023/07/17 - 03:32:35 | 200 |      128.63µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:32:36 | 200 |      131.82µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:32:36 | 200 |      205.01µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:32:36 | 200 |      148.89µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:37 | 200 |      179.66µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:32:38 | 200 |      161.42µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:39 | 200 |       152.1µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:41 | 200 |      184.32µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:42 | 200 |      160.24µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:32:50 | 200 |  218.947544ms |  15.235.130.219 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2023/07/17 - 03:32:51 | 200 |      390.42µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:32:52 | 200 |     1.12143ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[31mERRO[0m[2023-07-17 03:37:36] failed list /: please add a storage first.
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:19
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:37:36 | 200 |       381.4µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:37:53 | 200 |      206.87µs |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:42:32 | 200 |  1.231736799s |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:42:32 | 200 |      102.04µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:42:32 | 200 |      438.73µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:42:36 | 200 |      320.65µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:42:36 | 200 |      107.12µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:42:37 | 200 |      127.06µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:42:37 | 200 |      227.27µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:42:37 | 200 |       163.5µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:42:48 | 200 |       242.1µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:42:48 | 200 |      399.84µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:42:52 | 200 |      145.33µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Lanzou"
+[GIN] 2023/07/17 - 03:42:52 | 200 |       87.06µs |  15.235.130.219 | GET      "/@manage/storages/edit/1"
+[GIN] 2023/07/17 - 03:42:53 | 200 |       84.88µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:42:54 | 200 |       108.4µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:42:55 | 200 |      341.96µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=1"
+[GIN] 2023/07/17 - 03:42:55 | 200 |      127.77µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Lanzou"
+[GIN] 2023/07/17 - 03:43:13 | 200 |  310.979036ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:43:13 | 200 |      108.18µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:43:13 | 200 |     421.049µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[31mERRO[0m[2023-07-17 03:43:16] failed list /-1: can't find storage with rawPath: /-1
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.list
+	/home/runner/work/alist/alist/internal/fs/list.go:18
+github.com/alist-org/alist/v3/internal/fs.List
+	/home/runner/work/alist/alist/internal/fs/fs.go:22
+github.com/alist-org/alist/v3/server/handles.FsList
+	/home/runner/work/alist/alist/server/handles/fsread.go:82
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:43:16 | 200 |      675.02µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:43:17 | 200 |      100.73µs |  15.235.130.219 | GET      "/-1"
+[GIN] 2023/07/17 - 03:43:17 | 200 |      113.04µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:43:17 | 200 |      97.549µs |  15.235.130.219 | GET      "/api/me"
+[31mERRO[0m[2023-07-17 03:43:18] failed get /-1: can't find storage with rawPath: /-1
+github.com/alist-org/alist/v3/internal/op.GetStorageAndActualPath
+	/home/runner/work/alist/alist/internal/op/path.go:22
+github.com/alist-org/alist/v3/internal/fs.get
+	/home/runner/work/alist/alist/internal/fs/get.go:25
+github.com/alist-org/alist/v3/internal/fs.Get
+	/home/runner/work/alist/alist/internal/fs/fs.go:37
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/home/runner/work/alist/alist/server/handles/fsread.go:250
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed get storage 
+[GIN] 2023/07/17 - 03:43:18 | 200 |      357.63µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:43:19 | 200 |      217.22µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:43:20 | 200 |      181.98µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:43:22 | 200 |  508.671342ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:43:24 | 200 |  769.988482ms |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:43:35] failed link /实用软件/实用软件/雷霆嘎巴加速器_1.0.2.apk: file does not exist
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:253
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/home/runner/work/alist/alist/internal/op/fs.go:260
+github.com/alist-org/alist/v3/internal/fs.link
+	/home/runner/work/alist/alist/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/home/runner/work/alist/alist/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/home/runner/work/alist/alist/server/handles/fsread.go:289
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed link 
+[GIN] 2023/07/17 - 03:43:35 | 200 |  1.831382124s |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:43:48 | 200 |      195.83µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:43:52 | 200 |  2.913106225s |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:43:52 | 200 |    3.769939ms |  15.235.130.219 | GET      "/assets/File.f319d425.js"
+[GIN] 2023/07/17 - 03:44:15 | 200 |      520.78µs |  15.235.130.219 | POST     "/api/fs/list"
+[31mERRO[0m[2023-07-17 03:44:17] failed link /实用软件/实用软件/雷霆嘎巴加速器_1.0.2.apk: file does not exist
+failed get link
+github.com/alist-org/alist/v3/internal/op.Link.func1
+	/home/runner/work/alist/alist/internal/op/fs.go:253
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall.func2
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:193
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).doCall
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:195
+github.com/alist-org/alist/v3/pkg/singleflight.(*Group[...]).Do
+	/home/runner/work/alist/alist/pkg/singleflight/singleflight.go:108
+github.com/alist-org/alist/v3/internal/op.Link
+	/home/runner/work/alist/alist/internal/op/fs.go:260
+github.com/alist-org/alist/v3/internal/fs.link
+	/home/runner/work/alist/alist/internal/fs/link.go:19
+github.com/alist-org/alist/v3/internal/fs.Link
+	/home/runner/work/alist/alist/internal/fs/fs.go:48
+github.com/alist-org/alist/v3/server/handles.FsGet
+	/home/runner/work/alist/alist/server/handles/fsread.go:289
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.Auth
+	/home/runner/work/alist/alist/server/middlewares/auth.go:67
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/alist-org/alist/v3/server/middlewares.StoragesLoaded
+	/home/runner/work/alist/alist/server/middlewares/check.go:14
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.CustomRecoveryWithWriter.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/recovery.go:102
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.LoggerWithConfig.func1
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/logger.go:240
+github.com/gin-gonic/gin.(*Context).Next
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/context.go:174
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:620
+github.com/gin-gonic/gin.(*Engine).ServeHTTP
+	/home/runner/go/pkg/mod/github.com/gin-gonic/gin@v1.9.1/gin.go:576
+net/http.serverHandler.ServeHTTP
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:2936
+net/http.(*conn).serve
+	/opt/hostedtoolcache/go/1.20.5/x64/src/net/http/server.go:1995
+runtime.goexit
+	/opt/hostedtoolcache/go/1.20.5/x64/src/runtime/asm_amd64.s:1598
+failed link 
+[GIN] 2023/07/17 - 03:44:17 | 200 |   270.28314ms |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:44:18 | 200 |     180.269µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:44:19 | 200 |      222.49µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:44:20 | 200 |       187.2µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:44:21 | 200 |       168.4µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:44:22 | 200 |      200.79µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:44:23 | 200 |       149.6µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:43 | 200 |      129.07µs |  15.235.130.219 | GET      "/实用软件"
+[GIN] 2023/07/17 - 03:46:44 | 200 |       124.5µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:46:45 | 200 |      191.16µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:46:46 | 200 |         195µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:46:47 | 200 |      174.86µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:49 | 200 |      225.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:51 | 200 |      185.64µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:46:52 | 200 |       187.6µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:54 | 200 |      151.53µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:55 | 200 |      190.49µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:57 | 200 |      210.56µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:46:59 | 200 |      178.95µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:47:00 | 200 |        96.9µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:47:01 | 200 |      130.37µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:47:02 | 200 |     217.251µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:47:03 | 200 |      171.02µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:47:34 | 200 |     1.70672ms |  15.235.130.219 | GET      "/api/admin/driver/list"
+[GIN] 2023/07/17 - 03:47:51 | 200 |  1.180282672s |  15.235.130.219 | POST     "/api/admin/storage/create"
+[GIN] 2023/07/17 - 03:47:52 | 200 |      117.15µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:47:52 | 200 |      592.35µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:47:54 | 200 |      166.37µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:47:56 | 200 |       90.76µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:47:57 | 200 |      131.59µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:47:58 | 200 |      222.86µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:47:59 | 200 |      175.15µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:01 | 200 |  502.349132ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:03 | 200 |      178.57µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:06 | 200 |      185.37µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:07 | 200 |       232.7µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:08 | 200 |      169.42µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:09 | 200 |      174.35µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:11 | 200 |      177.38µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:12 | 200 |  496.550183ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:14 | 200 |      227.16µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:15 | 200 |  496.347524ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:17 | 200 |      188.45µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:19 | 200 |      358.95µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:48:19 | 200 |      142.78µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Lanzou"
+[GIN] 2023/07/17 - 03:48:29 | 200 |  309.964417ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:48:29 | 200 |      113.72µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:48:29 | 200 |     586.339µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:48:31 | 200 |     106.569µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:48:31 | 200 |     100.549µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:48:32 | 200 |      105.16µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:48:32 | 200 |     250.309µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:48:32 | 200 |      181.23µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:34 | 200 |  499.072683ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:36 | 200 |  750.168284ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:37 | 200 |       157.5µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:40 | 200 |      182.43µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:41 | 200 |      180.68µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:43 | 200 |  497.288483ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:44 | 200 |      158.66µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:45 | 200 |  499.550723ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:46 | 200 |      167.84µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:48 | 200 |  500.486803ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:48 | 200 |     2.33835ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:50 | 200 |      190.52µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:48:50 | 200 |      194.33µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:03 | 200 |      439.38µs |  15.235.130.219 | POST     "/api/admin/storage/delete?id=1"
+[GIN] 2023/07/17 - 03:49:03 | 200 |      478.35µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:49:05 | 200 |      317.96µs |  15.235.130.219 | GET      "/api/admin/storage/get?id=2"
+[GIN] 2023/07/17 - 03:49:05 | 200 |      182.19µs |  15.235.130.219 | GET      "/api/admin/driver/info?driver=Lanzou"
+[GIN] 2023/07/17 - 03:49:15 | 200 |  307.919818ms |  15.235.130.219 | POST     "/api/admin/storage/update"
+[GIN] 2023/07/17 - 03:49:16 | 200 |      103.13µs |  15.235.130.219 | GET      "/api/admin/driver/names"
+[GIN] 2023/07/17 - 03:49:16 | 200 |      495.67µs |  15.235.130.219 | GET      "/api/admin/storage/list"
+[GIN] 2023/07/17 - 03:49:19 | 200 |      217.88µs |  15.235.130.219 | GET      "/"
+[GIN] 2023/07/17 - 03:49:19 | 200 |       78.79µs |  15.235.130.219 | GET      "/api/public/settings"
+[GIN] 2023/07/17 - 03:49:19 | 200 |      133.48µs |  15.235.130.219 | GET      "/api/me"
+[GIN] 2023/07/17 - 03:49:20 | 200 |     254.491µs |  15.235.130.219 | POST     "/api/fs/get"
+[GIN] 2023/07/17 - 03:49:20 | 200 |      190.26µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:21 | 200 |  498.805853ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:24 | 200 |  751.927325ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:25 | 200 |      173.66µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:26 | 200 |  500.176183ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:27 | 200 |       159.7µs |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:28 | 200 |  497.526553ms |  15.235.130.219 | POST     "/api/fs/list"
+[GIN] 2023/07/17 - 03:49:28 | 200 |      179.44µs |  15.235.130.219 | POST     "/api/fs/list"
